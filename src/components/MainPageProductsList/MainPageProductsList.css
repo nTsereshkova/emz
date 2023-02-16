@@ -1,0 +1,22 @@
+.productsList {
+    display: flex;
+    box-sizing: border-box;
+    height: fit-content
+}
+
+#product-pointer{
+   max-width: 200px;
+   cursor: pointer;
+   background-color: white;
+    color:#021533;
+}
+
+#product-pointer:hover {
+
+    background-color: #021533;
+    color:white;
+}
+.product-arrow {
+    width: 100%;
+    height: 100%;
+}

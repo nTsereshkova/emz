@@ -1,0 +1,45 @@
+.header {
+    flex: 0 0 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0  30px;
+   
+}
+.header h1 {
+    color: #021533
+}
+.header-links {
+    flex: 0 1 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.links {
+    flex: 0 1 80%;
+    margin:  0 10px;
+}
+.language {
+    padding:0 10px;
+    width: auto;
+    height: auto;
+    min-height: 25px;
+    min-width: 25px;
+    color: #021533;
+    cursor:pointer
+}
+.link {
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 1.5em;
+    color : #021533;
+    padding:0 10px;}
+
+.activeLink {
+    font-family: inherit;
+    font-size: 2em;
+    color : #021533;
+    text-decoration: none;
+
+}
