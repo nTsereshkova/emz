@@ -1,3 +1,3 @@
-import  CataloguePage from "./CataloguePage";
+import CataloguePage from './CataloguePage';
 
-export {CataloguePage}
+export { CataloguePage };

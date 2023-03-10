@@ -1,3 +1,3 @@
-import  VacanciesPage from "./VacanciesPage";
+import VacanciesPage from './VacanciesPage';
 
-export {VacanciesPage}
+export { VacanciesPage };

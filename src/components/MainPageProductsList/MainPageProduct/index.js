@@ -1,3 +1,3 @@
-import MainPageProduct from "./MainPageProduct";
+import MainPageProduct from './MainPageProduct';
 
-export {MainPageProduct}
+export { MainPageProduct };

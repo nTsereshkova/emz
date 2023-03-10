@@ -1,7 +1,6 @@
-import "./CataloguePage.css"
+import './CataloguePage.css';
 
 const CataloguePage = () => {
-return <h1> catalogue </h1>
-
-}
-export default CataloguePage
+  return <h1> catalogue </h1>;
+};
+export default CataloguePage;

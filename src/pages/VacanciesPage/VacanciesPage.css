@@ -1,0 +1,12 @@
+.vacancies {
+  padding: 0 30px;
+  color: #021533;
+}
+.vacancies p {
+  font-size: 1.3rem;
+  padding: 0 30px;
+}
+
+#vacancies-last {
+  font-size: 1.7em;
+}

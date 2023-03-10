@@ -1,3 +1,3 @@
-import MainPageProductsList from "./MainPageProductsList"
+import MainPageProductsList from './MainPageProductsList';
 
-export {MainPageProductsList}
+export { MainPageProductsList };
