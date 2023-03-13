@@ -1,0 +1,10 @@
+.catalogue-product {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #021533;
+}
+
+.catalogue-product-descr {
+  display: flex;
+  flex-direction: row;
+}

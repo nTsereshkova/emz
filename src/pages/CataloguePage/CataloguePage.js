@@ -1,6 +1,7 @@
+import { CatalogueConteiner } from '../../components/CatalogueConteiner';
 import './CataloguePage.css';
 
 const CataloguePage = () => {
-  return <h1> catalogue </h1>;
+  return <CatalogueConteiner />;
 };
 export default CataloguePage;
