@@ -40,3 +40,13 @@
   color: #021533;
   text-decoration: none;
 }
+
+.header-aside {
+  display: flex;
+  flex-direction: column;
+}
+.header-aside select {
+  border: none;
+}
+/* .header-aside-lang {
+} */

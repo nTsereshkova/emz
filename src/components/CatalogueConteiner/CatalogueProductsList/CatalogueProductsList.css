@@ -1,7 +1,7 @@
 .catalogue-product {
   display: flex;
   flex-direction: column;
-  border: 1px solid #021533;
+  border-bottom: 1px solid #021533;
 }
 
 .catalogue-product-descr {

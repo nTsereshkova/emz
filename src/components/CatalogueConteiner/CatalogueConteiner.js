@@ -4,7 +4,7 @@ import { CatalogueProductsList } from './CatalogueProductsList';
 
 const CatalogueConteiner = () => {
   const products = useSelector(state => state.main.productsList);
-  console.log(products);
+  //console.log(products);
 
   return (
     <>

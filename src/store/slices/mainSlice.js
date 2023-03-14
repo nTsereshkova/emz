@@ -34,8 +34,16 @@ const mainSlice = createSlice({
         image: { src: imgREM, alt: 'Ремонт' },
       },
     ],
+    isChangingLanguage: false,
+    language: ['ru', 'en', 'bel'],
   },
-  reducers: {},
+
+  reducers: {
+    changeLanguageHandler: state => {
+      console.log('сработала смена языка ', state.isChangingLanguage);
+      state.isChangingLanguage = !state.isChangingLanguage;
+    },
+  },
 });
 
 export default mainSlice;
