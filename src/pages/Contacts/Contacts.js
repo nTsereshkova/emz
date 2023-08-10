@@ -1,4 +1,5 @@
 import { Location } from '../../components/Location';
+import { FeedbackForm } from '../../components/FeedbackForm';
 import './Contacts.css';
 
 const Contacts = () => {
@@ -39,6 +40,7 @@ const Contacts = () => {
         <b> Отдел кадров</b> Тел: +375 (232) 95-28-56
       </article>
       <article className="contacts-map">
+        <FeedbackForm />
         <Location />
       </article>
     </div>

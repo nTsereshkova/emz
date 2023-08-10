@@ -8,7 +8,7 @@ import './Header.css';
 export const Header = () => {
   const { isChangingLanguage } = useSelector(state => state.main);
   const dispatch = useDispatch();
-  console.log(isChangingLanguage);
+  //console.log(isChangingLanguage);
   return (
     <div className="header">
       <h1> ОАО "Гомельский ЭМЗ"</h1>

@@ -36,12 +36,19 @@ const mainSlice = createSlice({
     ],
     isChangingLanguage: false,
     language: ['ru', 'en', 'bel'],
+    feedbackText: '',
   },
 
   reducers: {
     changeLanguageHandler: state => {
       console.log('сработала смена языка ', state.isChangingLanguage);
       state.isChangingLanguage = !state.isChangingLanguage;
+    },
+    onChangeInputFeedback: (state, action) => {
+      state.feedbackText = action.payload;
+    },
+    clearFeedbackText: state => {
+      state.feedbackText = '';
     },
   },
 });
