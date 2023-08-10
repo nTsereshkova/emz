@@ -1,0 +1,17 @@
+.contacts {
+  padding: 0 30px;
+  color: #021533;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-info-header {
+  font-size: 1.5em;
+  padding-bottom: 30px;
+}
+
+.contacts-map {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
