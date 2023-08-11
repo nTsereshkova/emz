@@ -1,5 +1,5 @@
 .feedback {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   flex: 0 0 40%;
 }
 .feedback p {
@@ -12,11 +12,11 @@
   font-size: inherit;
   margin: 0;
   width: 100%;
-  height: 100%;
+  height: 150px;
   outline: none;
-  /* background: #c5ddf3; */
   border: 1px solid #021533;
   color: #021533;
+  resize: none;
 }
 
 .btn {
