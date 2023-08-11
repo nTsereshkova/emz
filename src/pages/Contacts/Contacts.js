@@ -41,7 +41,7 @@ const Contacts = () => {
       </article>
       <article className="contacts-map">
         <FeedbackForm />
-        <Location />
+        {/* <Location /> */}
       </article>
     </div>
   );

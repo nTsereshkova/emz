@@ -31,3 +31,7 @@
   background-color: #021533;
   color: white;
 }
+.btn:active {
+  color: #021533;
+  background-color: white;
+}

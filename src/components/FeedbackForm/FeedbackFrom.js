@@ -5,9 +5,9 @@ import './FeedbackForm.css';
 
 const FeedbackForm = () => {
   const dispatch = useDispatch();
-  //const feedbackText = useSelector(state => state.main.feedbackText);
 
   const [feedback, setFeedback] = useState(' ');
+  const [feedbackIsSend, setFeedbackIsSend] = useState(false);
   console.log(feedback);
   return (
     <div className="feedback">
@@ -17,24 +17,25 @@ const FeedbackForm = () => {
       <div>
         <textarea
           onChange={event => {
-            dispatch(onChangeInputFeedback(event.target.value));
+            //dispatch(onChangeInputFeedback(event.target.value));
             setFeedback(event.target.value);
+            setFeedbackIsSend(false);
           }}
-          defaultValue={feedback}
+          //defaultValue={''}
+          value={feedback}
           className="textarea"
         />
         <button
           className="btn"
           onClick={() => {
             dispatch(onClickFeedback(feedback));
-            console.log('lalal');
             setFeedback(' ');
-            dispatch(onChangeInputFeedback(''));
-            console.log('l;alala 2 ');
+            setFeedbackIsSend(true);
           }}
         >
           Связаться с нами
         </button>
+        {feedbackIsSend && <p> Ваш запрос был успешно отправлен </p>}
       </div>
     </div>
   );

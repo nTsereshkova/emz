@@ -44,12 +44,12 @@ const mainSlice = createSlice({
       console.log('сработала смена языка ', state.isChangingLanguage);
       state.isChangingLanguage = !state.isChangingLanguage;
     },
-    onChangeInputFeedback: (state, action) => {
-      state.feedbackText = action.payload;
-    },
-    clearFeedbackText: state => {
-      state.feedbackText = '';
-    },
+    // onChangeInputFeedback: (state, action) => {
+    //   state.feedbackText = action.payload;
+    // },
+    // clearFeedbackText: state => {
+    //   state.feedbackText = '';
+    // },
   },
 });
 
